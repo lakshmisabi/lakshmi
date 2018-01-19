@@ -1,0 +1,84 @@
+<!DOCTYPE>
+<html>
+<head>
+
+   <title> Add Movie</title>
+   <meta name="description" content="My Add movie">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="reset.css"/>
+   <link rel="stylesheet" href="addmovie.css"/>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300" />
+ </head>
+ <style type="text/css">
+
+
+ </style>
+
+
+
+ <body>
+
+   <header>
+     <img src="./images/projector-logo.png" class="logo fleft">
+     <nav>
+       <ul class="fright">
+         <li><a href="#">HOME</a></li>
+         <li><a href="#">ADD MOVIE</a></li>
+       </ul>
+     </nav>
+   </header>
+   <div class="clearfix"></div>
+   <form class="add_movie_form">
+   <h2>Add a Movie</h2>
+      <ul>
+        <li>
+          <label for="movie-name"> Movie Name</label>
+          <input type="text" id="movie-name" name="movie-name" required/>
+        </li>
+            <li>
+              <label for="release-year">Release Year </label>
+              <input type="text" id="release-yr" name="release-yr"/>
+            </li>
+
+            <li>
+              <label for="lang" >Language</label>
+              <select name="lang">
+                <option value="english">English</option>
+                <option value="tamil">Tamil</option>
+              </select>
+            </li>
+            <li>
+                 <label for="rating">Rating</label>
+                 <select name="rating">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
+            </li>
+            <li>
+              <label for="url">Thumbnail URL</label>
+              <input type="url" id="thumbnail" name="url"/>
+            </li>
+            <li>
+              <label for="plot">Plot</label>
+              <textarea name="plot" rows="6"></textarea>
+            </li>
+            <li>
+              <label for="url1">Poster URL</label>
+              <input type="url" id="url1" name="url1"/>
+            </li>
+            <li>
+              <label for="cast">Cast</label>
+              <textarea name="cast" rows="6"></textarea>
+            </li>
+            <li>
+             <input type="button"id="submit" value="SAVE">
+            </li>
+          </ul>
+          </form>
+          <footer>
+            <img src="./images/projector-logo.png" class="logo fleft">
+          </footer>
+
+
+            </html>
